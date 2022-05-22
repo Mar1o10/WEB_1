@@ -1,0 +1,143 @@
+/* General styles */
+body{
+    
+    font-family: sans-serif;
+    font-size: 100%;
+    background-color: skyblue
+}
+ul{
+    margin: 0;
+    padding: 1;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.container {
+    margin: auto;
+    width: 1000px;
+}
+.container2 {
+    margin: auto;
+    width: 1000px;
+    height: 300px;
+}
+.container2 p{
+    color: whitesmoke;
+    font-size: 130%;
+    padding-left: 10px;
+}
+
+/*Header*/
+.header{
+    padding: 30px 0;
+    background-color: cornflowerblue;
+}
+.header h1,
+.header h2{
+    color: whitesmoke;
+    text-align: center;
+}
+
+/* NAVIGATION */
+.page-navigation {
+    background-color: lightsteelblue;
+    border-color: darkslateblue;
+    min-height: 65px
+}
+.page-navigation li {
+    float: left;
+    width: 200px;
+}
+.page-navigation a {
+    display: block;
+    color: whitesmoke;
+    line-height: 4em;
+    font-weight: bold;
+    text-align: center;
+}
+.page-navigation li a:hover,
+button:hover{
+    color: aquamarine;
+    background-color: darkslateblue;
+}
+/* BODY */
+.assort{
+    overflow: auto;
+}
+.assort-title{
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 1px;
+    background-color: cornflowerblue;
+    font-size: 35px;
+    color: whitesmoke;
+}
+.assort-title2{
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:cornflowerblue;
+    font-size: 30px;
+    color: whitesmoke; 
+}
+.assort-item-oter{
+    display: inline-block;
+    float: left;
+    padding-left: 3px;
+    padding-right: 30px;
+    width: 25%;
+    box-sizing: border-box;
+}
+.assort > div:first-child{
+    padding-left: 5px;
+}
+.assort > div:last-child{
+    padding-right: 5px;
+}
+.assort-item {
+    border: px solid cornflowerblue;
+}
+.assort-item img {
+    width: 100%;
+}
+.assort-text {
+    padding: 20px 20px 20px;
+    background-color: cornflowerblue;
+    min-height: 160px;
+}
+
+.assort-text h3 {
+    color: aliceblue;
+}
+.assort-text p {
+    color: aliceblue;
+}
+.assort-text button {
+    padding: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    outline: none;
+}
+.conteiner1 p{
+    text-align: center;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 21px
+}
+.soon p{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 300%;
+    padding: 150px;
+    
+}
+ 
